@@ -34,6 +34,10 @@
     margin-right: 10px;
 }
 
+.contact-col ul li a{
+    color: #212EA0;
+}
+
 .contact form input, .contact form textarea{
     display: block;
     width: 100%;

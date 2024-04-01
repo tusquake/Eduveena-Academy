@@ -85,11 +85,13 @@
         display: block;
         margin-bottom: 10px;   
         font-size: 12px;
+        height: 300px;
+        overflow: hidden;
     }
     .user-info h3{
         font-size: 16px;
     }
     .slider p{
-        
+        font-size: 12px;
     }
 }

@@ -19,10 +19,11 @@ const App = () => {
       <Navbar></Navbar>
       <Hero></Hero>
       <div className="container">
-        <Title subTitle='OUR PROGRAM' title='What we Offer'></Title>
+        <Title subTitle='Courses' title='What we Offer'></Title>
       <Programs></Programs>
+      <Title subTitle='About Us' title='Our Faculty'></Title>
       <About setPlayState={setPlayState}></About>
-      <Title subTitle='Gallery' title='Campus Photos'></Title>
+      <Title subTitle='Gallery' title='Centre Photos'></Title>
       <Campus></Campus>
       <Title subTitle='TESTIMONIALS' title='What Student Says'></Title>
       <Testimonials></Testimonials>

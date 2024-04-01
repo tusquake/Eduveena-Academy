@@ -1,4 +1,5 @@
 import React from 'react'
+import facebook_icon from '../../assets/facebook-icon.png'
 import location_icon from '../../assets/location-icon.png'
 import mail_icon from '../../assets/mail-icon.png'
 import msg_icon from '../../assets/msg-icon.png'
@@ -41,11 +42,14 @@ const Contact = () => {
     <div className='contact'>
       <div className="contact-col">
         <h3>Send us a message <img src={msg_icon} alt="" /></h3>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius recusandae sint sed? Labore assumenda vel nihil velit tenetur, at, placeat voluptatibus doloribus, rerum dolor doloremque porro cupiditate delectus error non. Quod reiciendis ex expedita modi nesciunt saepe necessitatibus pariatur tenetur voluptatem aperiam? Quidem quia rem dolorum consequatur explicabo, adipisci sapiente!</p>
+        <p>For any queries regarding admission or course structures, please don't hesitate to reach out. We're here to assist you every step of the way and provide clarity on all aspects of our programs.</p>
+        <br />
+        <p><b>Certificate No.</b>&#160;&#160; 6719</p>
         <ul>
-            <li><img src={mail_icon} alt="" />Contact@gGreatStack.dev</li>
-            <li><img src={phone_icon} alt="" />+1 123-456-7890</li>
-            <li><img src={location_icon} alt="" />77 Massachusetts Ave, Cambridge<br/> mA 02139, United States</li>
+            <li><img src={mail_icon} alt="" />Mishra1510mom@outlook.com</li>
+            <li><img src={phone_icon} alt="" />91+ 9073760020/6291257874</li>
+            <li><img src={location_icon} alt="" />2/59, Tanavar Colony,Kol- 74<br/> (Near 2 No. Shiv Mandir) </li>
+            <li><img src={facebook_icon} alt="" /><a href="https://www.facebook.com/eduveenaacademy/" target='_blank'>Reach Us at Facebook</a></li>
         </ul>
       </div>
       <div className="contact-col">

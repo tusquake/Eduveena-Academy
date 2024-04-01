@@ -12,7 +12,8 @@ nav{
 }
 
 .logo{
-    width: 180px;
+    width: 280px;
+    height: 60px;
     cursor: pointer;
 }
 
@@ -69,5 +70,8 @@ nav ul li{
     }
     .hide-mobile-menu{
         right: -200px;
+    }
+    .logo{
+        width: 230px;
     }
 }
